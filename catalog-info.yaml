@@ -8,8 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     jenkins.io/job-full-name:  Backstage_PoC/gssp-dev1/main
     argocd/app-name: gssp-dev1
-    argocd/instance-name: main
- 
+    backstage.io/kubernetes-namespace: default
 spec:
   type: service
   owner: development
